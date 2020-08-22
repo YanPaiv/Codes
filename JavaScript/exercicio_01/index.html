@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+</head>
+<body>
+   
+
+   <script>
+   var endereco = {
+      Rua: 'Alzemir Fernandes Coelho',
+      Numero: 304,
+      Bairro: 'Granja Spinelli',
+      Cidade: 'Nova Friburgo',
+      uf:'RJ'  
+   }; 
+
+  
+   function mostarEndereco(){
+    var enderecoFormat =('O usuario mora na cidade de '+endereco.Cidade +'/ '+ endereco.uf + ',bairro ' +endereco.Bairro+' na rua '+endereco.Rua+' n° '+endereco.Numero);
+
+    return enderecoFormat
+   }
+console.log(mostarEndereco())
+ 
+   </script>
+</body>
+</html>
